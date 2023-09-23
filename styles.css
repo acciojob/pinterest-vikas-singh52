@@ -1,9 +1,24 @@
 /*  your css code here. If applicable */
 .hero{
-	width:500px;
-	height:200px;
+	width:800px;
+	height:400px;
 	display:flex;
 	flex-direction:row;
 	jestify-content:space-between;
 	align-item:center;
+}
+img{
+	width:500px;
+	height:300px;
+	object-fit:cover;
+}
+#div2{
+	padding:10px;
+	text-align:center;
+}
+#div2>button{
+	padding:5px;
+	background-color:red;
+	color:white;
+	border-radius:10px;
 }
